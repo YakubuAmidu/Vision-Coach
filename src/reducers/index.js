@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import user from './reducer_user';
-import goals from './reducer_goals';
+import user from './reducer-user';
+import goals from './reducer-goals';
 
 export default combineReducers({
   user,
