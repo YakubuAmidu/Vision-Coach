@@ -8,6 +8,10 @@ class AddGoal extends Component{
    }
  }
 
+ addGoal() {
+   console.log('this.state', this.state);
+ }
+
   render() {
     return (
       <div className="form-inline">
