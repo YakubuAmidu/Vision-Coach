@@ -1,4 +1,4 @@
-import { SIGN_IN } from '../constants';
+import { SIGNED_IN } from '../constants';
 
 export function logUser(email) {
   const action = {

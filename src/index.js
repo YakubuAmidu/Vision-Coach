@@ -4,12 +4,13 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import { Router, Route, browserHistory } from 'react-router';
 import { firebaseApp } from './firebase';
+import reducer from './reducers';
 
 import App from './components/App';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 
-const store = createStore();
+const store = createStore(reducer);
 
 firebaseApp.auth().onAuthStateChanged(user => {
   if (user) {
