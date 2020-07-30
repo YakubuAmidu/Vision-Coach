@@ -10,7 +10,9 @@ class App extends Component {
     render() {
         return (
             <div>
-            App
+            <h3>Goals</h3>
+            <div>Add Goal</div>
+            <div>Goal List</div>
              <button
              className="btn btn-danger"
              onClick={() => this.signOut()}
