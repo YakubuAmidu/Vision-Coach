@@ -29,6 +29,7 @@ signUp() {
             <div className="form-group">
             <input
             className="form-control"
+            style={{ marginRight: '5px' }}
             type="text"
             placeholder="email"
             onChange={event => this.setState({ email: event.target.value })}

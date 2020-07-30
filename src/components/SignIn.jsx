@@ -25,7 +25,7 @@ class SignIn extends Component {
     render() {
         return (
           <div className="form-inline" style={{ margin: '5%' }}>
-            <div>Sig In</div>
+            <h2>Sig In</h2>
             <div className="form-group">
             <input
             className="form-control"
@@ -44,7 +44,7 @@ class SignIn extends Component {
             <button
             className="btn btn-primary"
             type="button"
-            onClick={() => this.signUp()}
+            onClick={() => this.signIn()}
             >
             SignIn
             </button>
