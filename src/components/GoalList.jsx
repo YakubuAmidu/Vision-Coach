@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { goalRef } from '../firebase';
 
-export default class GoalList extends Component {
+class GoalList extends Component {
 componentDidMount() {
   goalRef.on('value', snap => {
     let goals = [];
@@ -20,4 +20,4 @@ componentDidMount() {
   }
 }
 
-// export default GoalList;
+export default GoalList;
