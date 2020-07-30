@@ -6,6 +6,8 @@ class GoalItem extends Component {
   completeGoal() {
   const { email } = this.props.user;
   const { title } = this.props.goal;
+  console.log('email', email, 'title', title);
+  completeGoalRef.push({ email, title });
   }
 
   render() {
