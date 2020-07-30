@@ -16,7 +16,7 @@ completeGoalRef.on('value', snap => {
  }
 
  clearCompleted() {
-   
+   completeGoalRef.set([]);
  }
 
   render() {
